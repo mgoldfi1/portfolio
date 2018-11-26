@@ -65,5 +65,9 @@
   width: 50%;
   margin: auto;
   padding-top: 12px;
-  
+}
+
+.button {
+  text-align: center;
+  margin-top: 8em;
 }

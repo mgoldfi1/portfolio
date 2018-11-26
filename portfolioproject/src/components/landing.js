@@ -1,7 +1,12 @@
 import React, { Component } from 'react';
-import { Grid, Cell } from 'react-mdl'
+import { Button, Grid, Cell } from 'react-mdl'
 
 export default class Landing extends Component {
+
+    handleHover = () => {
+
+    }
+
     render() {
         return(
             <div style={{width: '100%', margin: 'auto'}}>
@@ -34,8 +39,13 @@ export default class Landing extends Component {
                     <img className="tech-icon" src={require('./images/node.png')} />
                     <img className="tech-icon" src={require('./images/Bootstrap-Logo.png')} />
                     </div>
+                    <div className="button">
+                        <Button  style={{opacity: '1.0'}} onMouseEnter={(event) => {event.target.style.opacity = 0.5}} onMouseLeave={(event) => {event.target.style.opacity = 1}} raised accent ripple>Continue</Button>
+                    </div>
                 </Cell>
+               
             </Grid>
+            
             </div>
         )
     }
