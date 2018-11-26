@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Button, Grid, Cell } from 'react-mdl'
+import { Link } from 'react-router-dom'
 
 export default class Landing extends Component {
 
@@ -40,7 +41,9 @@ export default class Landing extends Component {
                     <img className="tech-icon" src={require('./images/Bootstrap-Logo.png')} />
                     </div>
                     <div className="button">
+                       <Link to="/about">
                         <Button  style={{opacity: '1.0'}} onMouseEnter={(event) => {event.target.style.opacity = 0.5}} onMouseLeave={(event) => {event.target.style.opacity = 1}} raised accent ripple>Continue</Button>
+                        </Link>
                     </div>
                 </Cell>
                
