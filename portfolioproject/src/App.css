@@ -73,7 +73,8 @@
 }
 
 .projects-grid {
-  display: flex;
+  display: flex; 
+  padding: 3em;
 }
 
 
@@ -94,6 +95,7 @@
 		transform: translateY(-10px);
 	}
 }
+
 
 .projects-grid>div:hover {
 	animation: bounce 1s;
