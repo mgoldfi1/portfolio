@@ -30,15 +30,15 @@ export default class Landing extends Component {
                     <hr/>
                     </div>
                     <div className='icons'>
-                    <img className="tech-icon" src={require('./images/html.png')} />
+                    <div className="icon-holder" style={{background: 'white'}}><img className="icon2" src={require('./images/html.png')}/></div>
                     <img className="tech-icon" src={require('./images/react.png')} />
                     <img className="tech-icon" src={require('./images/redux.png')} />
                     <img className="tech-icon" src={require('./images/JavaScript.png')} />
                     <img className="tech-icon" src={require('./images/rails.png')} />
                     <img className="tech-icon" src={require('./images/rest-api.png')} />
-                    <img className="tech-icon" src={require('./images/postgresql.png')} />
-                    <img className="tech-icon" src={require('./images/node.png')} />
-                    <img className="tech-icon" src={require('./images/Bootstrap-Logo.png')} />
+                    <div className="icon-holder" style={{background: 'white'}}><img className="icon2" src={require('./images/postgresql.png')}/></div>
+                    <div className="icon-holder" style={{background: 'white'}}><img className="icon2" src={require('./images/node.png')}/> </div>
+                    <div className="icon-holder" style={{background: 'white'}}><img className="icon2" src={require('./images/Bootstrap-Logo.png')}/></div>
                     </div>
                     <div className="button">
                        <Link to="/about">

@@ -36,6 +36,7 @@
   border-top: 5px dotted white;
   width: 50%;
   margin: auto;
+  margin-top: 5em;
 }
 
 .social-links {
@@ -51,12 +52,34 @@
   font-size: 4em;
   padding: 8px;
   margin: auto;
+  margin-top: 1em;
+}
+
+.social-links i:hover {
+  transform: scale(1.5)
 }
 
 .tech-icon {
   height: 75px;
   width: 75px;
   margin: auto;
+}
+.icon2 {
+  height: 65px;
+  width: 65px;
+  margin: auto;
+}
+.icon-holder {
+  padding: 5px;
+  margin: auto;
+}
+
+.tech-icon:hover {
+  transform: scale(1.5)
+}
+
+.icon-holder:hover {
+  transform: scale(1.5)
 }
 
 .icons {
@@ -75,6 +98,10 @@
 .projects-grid {
   display: flex; 
   padding: 3em;
+}
+
+.icons {
+  margin-top: 6em;
 }
 
 
