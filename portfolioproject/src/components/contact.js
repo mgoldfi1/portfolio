@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Button, Grid, Cell, Textfield } from 'react-mdl'
+import { Button, Grid, Cell, Textfield, List, ListItem, ListItemContent } from 'react-mdl'
 
 
 export default class Contact extends Component {
@@ -19,6 +19,14 @@ export default class Contact extends Component {
                     </Cell>
                     <Cell col={6}>
                     <h1 className="message">Contact Me</h1>
+                    <Grid>
+                    <List>
+                         <ListItem><div style={{marginRight: '10px'}}><i class="fa fa-envelope" aria-hidden="true"></i></div> mgoldfi1@binghamton.edu</ListItem>
+                         <ListItem><div style={{marginRight: '10px'}}><i class="fa fa-phone-square" aria-hidden="true"></i></div> (917) 846-9577</ListItem>
+                         <ListItem><div style={{marginRight: '10px'}}><i class="fa fa-linkedin-square" aria-hidden="true"></i></div><a href='http://linkedin.com/in/mgoldfine' target="_blank">mgoldfine</a></ListItem>
+                    </List>
+                    
+                    </Grid>
                     </Cell>
                 </Grid>
             </div>
