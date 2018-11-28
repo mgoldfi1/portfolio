@@ -127,3 +127,16 @@
 .projects-grid>div:hover {
 	animation: bounce 1s;
 }
+
+.contact-grid {
+  text-align: center;
+}
+
+.message {
+  font-family: 'Pacifico', cursive;
+}
+
+.contact-cell {
+  border-right: 5px dotted black;
+  height: 100vh
+}
