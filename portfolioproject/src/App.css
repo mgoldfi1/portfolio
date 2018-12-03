@@ -156,4 +156,29 @@
   border: dotted 5px black;
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
+  width: 500px
+}
+
+.facePic {
+  margin: auto;
+  height: 250px;
+  width: 250px;
+}
+
+.underPic {
+  width: 175px;
+  height: 200px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  margin: auto;
+  padding-top: 25px;
+}
+
+.info {
+  text-align:  left;
+  font-family: 'Pacifico', cursive;
+}
+
+.leftCell {
+  padding-top: 5%;
 }
