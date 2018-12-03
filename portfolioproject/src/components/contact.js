@@ -3,19 +3,39 @@ import { Button, Grid, Cell, Textfield, List, ListItem, ListItemContent } from '
 
 
 export default class Contact extends Component {
+    
+    state = {
+        toggle: false 
+    }
+
+    formSubmit = (state) => {
+        if (state.toggle === false) {
+            return (
+                <div>
+                <Textfield label="Name" style={{width: '400px'}}/>
+                    <br/>
+                    <Textfield label="Phone" style={{width: '400px'}}/>
+                    <br/>
+                    <Textfield label="Message" rows={3} style={{width: '400px'}}/>
+                    <br/>
+                    <Button  style={{opacity: '1.0'}}  onClick={() => this.setState({toggle: true})} onMouseEnter={(event) => {event.target.style.opacity = 0.5}} onMouseLeave={(event) => {event.target.style.opacity = 1}} raised accent ripple>SEND</Button>
+                </div>
+            )
+        } else {
+            return (
+                <h3> Thank you for your message! </h3> 
+            )
+        }
+    }
+
+    
     render() {
         return(
             <div>
                 <Grid className="contact-grid">
                     <Cell className="contact-cell" col={6}>
                     <h1 className="message">Send Me a Message</h1>
-                    <Textfield label="Name" style={{width: '400px'}}/>
-                    <br/>
-                    <Textfield label="Phone" style={{width: '400px'}}/>
-                    <br/>
-                    <Textfield label="Message" rows={3} style={{width: '400px'}}/>
-                    <br/>
-                    <Button  style={{opacity: '1.0'}} onMouseEnter={(event) => {event.target.style.opacity = 0.5}} onMouseLeave={(event) => {event.target.style.opacity = 1}} raised accent ripple>SEND</Button>
+                    {this.formSubmit(this.state)}
                     </Cell>
                     <Cell col={6}>
                     <h1 className="message">Contact Me</h1>
