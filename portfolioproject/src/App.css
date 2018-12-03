@@ -140,3 +140,20 @@
   border-right: 5px dotted black;
   height: 100vh
 }
+
+.aboutPage {
+  text-align: center;
+}
+
+.aboutBox {
+  text-align: center;
+}
+
+.summary {
+  text-align: left;
+  padding: 20px;
+  margin-top: 5%;
+  border: dotted 5px black;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
