@@ -23,7 +23,7 @@ export default class Contact extends Component {
             )
         } else {
             return (
-                <h3> Thank you for your message! </h3> 
+                <h3 className="message"> Thank you for your message! </h3> 
             )
         }
     }

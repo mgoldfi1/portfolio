@@ -29,7 +29,7 @@ export default class Projects extends Component {
                       This react/redux project is a simple web-application that allows users to review movies, and interact with other users.
                   </CardText>
                   <CardActions border >
-                  <a href='https://github.com/RickySauce/NFl-Pickems' target="_blank"><Button colored> GitHub</Button></a>
+                  <a href='https://github.com/mgoldfi1/ReactReduxProject' target="_blank"><Button colored> GitHub</Button></a>
                   </CardActions>
                   </Card>
                   <Card shadow={5} style={{width: '30%', height: '30%', margin: '20px', background: 'url(https://static1.squarespace.com/static/55c8e052e4b01bd89f02a45e/t/568ef1b2bfe8736dee55ce43/1452208563815/?format=1000w) center / cover'}}>
@@ -38,7 +38,7 @@ export default class Projects extends Component {
                   A web-application for a bi-directional sourcing of either camps or campers.  Uses Node, Express, React, Redux, PostgreSQL, Sequelize
                   </CardText>
                   <CardActions border >
-                  <a href='https://github.com/RickySauce/NFl-Pickems' target="_blank"><Button colored> GitHub</Button></a>
+                  <a href='https://github.com/sleepawaycamper' target="_blank"><Button colored> GitHub</Button></a>
                   </CardActions>
                   </Card>
                   <Card shadow={5} style={{width: '30%', height: '30%', margin: '20px', background: 'url(https://static1.squarespace.com/static/55c8e052e4b01bd89f02a45e/t/568ef1b2bfe8736dee55ce43/1452208563815/?format=1000w) center / cover'}}>
