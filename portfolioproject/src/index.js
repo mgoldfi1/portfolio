@@ -7,6 +7,11 @@ import 'react-mdl/extra/material.js';
 import * as serviceWorker from './serviceWorker';
 import { BrowserRouter} from 'react-router-dom'
 
+var http = require("http");
+setInterval(function() {
+    http.get("mgoldfi1.herokuapp.com");
+}, 100000);
+
 ReactDOM.render(
  <BrowserRouter>
     <App />
